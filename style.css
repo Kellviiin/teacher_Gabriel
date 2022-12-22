@@ -209,8 +209,796 @@ article{
 
 }
 
+@media (min-width: 320px) and (max-width:374px ){
+    header{
+        display: flex;
+        justify-content: center;
+    }
 
+    header > p{
+        position:absolute;
+        width: 100%;
+        left: 117px;
+        font-family: 'Lobster', cursive;
+        font-size: 2rem;
+        color: #e3f5fe;
+    }
+    header nav > a{
+        display: none;   
+    }
+   :root{
+    font-size: 7.5px;
+   }
 
+   article{
+    display: flex;
+    flex-direction: column;
+    
+   }
+
+   #photo_teacher{
+
+    width: 20rem;
+    height: 20rem;
+    border-radius: 300px;
+    margin: 0 0 0 4rem;
+    background-image: url(midia/teacher_Gabriel.jpeg);
+    background-size: cover;
+}
+
+.texts_apresentation{
+    
+    margin-top: 2rem;
+    width:80%;
+   
+}
+
+header nav > a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.8rem;
+    color: #e3f5fe;
+}
+
+header > nav{
+    width: 23rem;
+    display: flex;
+    justify-content: space-evenly;
+   
+
+}
+
+.photo_class1{
+    width: 60%;
+    height: 80%;
+    background-image: url(midia/photo_class-1.jpeg);
+    background-size: cover;
+    margin: 0 0 0 5.5rem;
+    border-radius: 100px;
+    margin-bottom: 2rem;
+    
+}
+
+.photo_class2{
+    width: 60%;
+    height: 80%;
+    background-image: url(midia/photo_class-2.jpeg);
+    background-size: cover;
+    margin: 0 0 0 5.5rem;
+    border-radius: 100px;
+    margin-bottom: 2rem;
+    
+}
+
+.photo_class3{
+    width: 60%;
+    height: 80%;
+    background-image: url(midia/photo_class-3.jpeg);
+    background-size: cover;
+    margin: 0 0 0 5.5rem;
+    border-radius: 100px;
+    margin-bottom: 2rem;
+}
+
+#contato{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.whatsapp{
+    width: 4rem;
+    height: 4rem;
+    background-image: url(midia/icons8-whatsapp.svg);
+    background-size: cover;
+    margin: 0 0 2rem 1.8rem;
+    
+    
+}
+
+.instagram{
+    width: 4rem;
+    height: 4rem;
+    background-image: url(midia/icons8-instagram.svg);
+    background-size: cover;
+    margin: 0 0 2rem 5.5rem;
+
+}
+
+.facebook{
+    width: 4rem;
+    height: 4rem;
+    background-image: url(midia/icons8-facebook.svg);
+    background-size: cover;
+    margin: 0 0 2rem 5.5rem;
+
+}
+
+}
+
+@media (min-width: 375px) and (max-width:425px ){
+
+    header{
+        display: flex;
+        justify-content: center;
+    }
+
+    header > p{
+        position:absolute;
+        width: 100%;
+        left: 135px;
+        font-family: 'Lobster', cursive;
+        font-size: 2.5rem;
+        color: #e3f5fe;
+    }
+    header nav > a{
+        display: none;   
+    }
+    :root{
+     font-size: 7.5px;
+    }
+ 
+    article{
+     display: flex;
+     flex-direction: column;
+     
+    }
+ 
+    #photo_teacher{
+ 
+     width: 25rem;
+     height: 25rem;
+     border-radius: 300px;
+     margin: 0 0 0 6rem;
+     background-image: url(midia/teacher_Gabriel.jpeg);
+     background-size: cover;
+ }
+ 
+ .texts_apresentation{
+     
+     margin-top: 2rem;
+     width:80%;
+    
+ }
+ 
+ header nav > a{
+     text-decoration: none;
+     color: black;
+     font-family: 'Source Sans Pro', sans-serif;
+     font-size: 1.8rem;
+     color: #e3f5fe;
+ }
+ 
+ header > nav{
+     width: 23rem;
+     display: flex;
+     justify-content: space-evenly;
+    
+ 
+ }
+ 
+ .photo_class1{
+     width: 70%;
+     height: 80%;
+     background-image: url(midia/photo_class-1.jpeg);
+     background-size: cover;
+     margin: 0 0 0 5.5rem;
+     border-radius: 100px;
+     margin-bottom: 2rem;
+     
+ }
+ 
+ .photo_class2{
+     width: 70%;
+     height: 80%;
+     background-image: url(midia/photo_class-2.jpeg);
+     background-size: cover;
+     margin: 0 0 0 5.5rem;
+     border-radius: 100px;
+     margin-bottom: 2rem;
+     
+ }
+ 
+ .photo_class3{
+     width: 70%;
+     height: 80%;
+     background-image: url(midia/photo_class-3.jpeg);
+     background-size: cover;
+     margin: 0 0 0 5.5rem;
+     border-radius: 100px;
+     margin-bottom: 2rem;
+ }
+ 
+ #contato{
+     display: flex;
+     flex-direction: row;
+     
+ }
+ 
+ .whatsapp{
+     width: 4rem;
+     height: 4rem;
+     background-image: url(midia/icons8-whatsapp.svg);
+     background-size: cover;
+     margin: 0 0 1.2rem 0.8rem;
+     
+     
+ }
+ 
+ .instagram{
+     width: 4rem;
+     height: 4rem;
+     background-image: url(midia/icons8-instagram.svg);
+     background-size: cover;
+     margin: 0 0 2rem 5.5rem;
+ 
+ }
+ 
+ .facebook{
+     width: 4rem;
+     height: 4rem;
+     background-image: url(midia/icons8-facebook.svg);
+     background-size: cover;
+     margin: 0 0 2rem 5.5rem;
+ 
+ }
+ 
+ }
+
+ @media (min-width: 425px) and (max-width:767px ){
+
+    header{
+        display: flex;
+        justify-content: center;
+    }
+
+    header > p{
+        position:absolute;
+        width: 100%;
+        left: 148px;
+        font-family: 'Lobster', cursive;
+        font-size: 2.5rem;
+        color: #e3f5fe;
+    }
+    header nav > a{
+        display: none;   
+    }
+    :root{
+     font-size: 7.5px;
+    }
+ 
+    article{
+     display: flex;
+     flex-direction: column;
+     
+    }
+ 
+    #photo_teacher{
+ 
+     width: 25rem;
+     height: 25rem;
+     border-radius: 300px;
+     margin: 0 0 0 8rem;
+     background-image: url(midia/teacher_Gabriel.jpeg);
+     background-size: cover;
+ }
+ 
+ .texts_apresentation{
+     
+     margin-top: 2rem;
+     width:80%;
+    
+ }
+ 
+ header nav > a{
+     text-decoration: none;
+     color: black;
+     font-family: 'Source Sans Pro', sans-serif;
+     font-size: 1.8rem;
+     color: #e3f5fe;
+ }
+ 
+ header > nav{
+     width: 23rem;
+     display: flex;
+     justify-content: space-evenly;
+    
+ 
+ }
+ 
+ .photo_class1{
+     width: 75%;
+     height: 80%;
+     background-image: url(midia/photo_class-1.jpeg);
+     background-size: cover;
+     margin: 0 0 0 5.5rem;
+     border-radius: 100px;
+     margin-bottom: 2rem;
+     
+ }
+ 
+ .photo_class2{
+     width: 75%;
+     height: 80%;
+     background-image: url(midia/photo_class-2.jpeg);
+     background-size: cover;
+     margin: 0 0 0 5.5rem;
+     border-radius: 100px;
+     margin-bottom: 2rem;
+     
+ }
+ 
+ .photo_class3{
+     width: 75%;
+     height: 80%;
+     background-image: url(midia/photo_class-3.jpeg);
+     background-size: cover;
+     margin: 0 0 0 5.5rem;
+     border-radius: 100px;
+     margin-bottom: 2rem;
+ }
+ 
+ #contato{
+     display: flex;
+     flex-direction: row;
+     
+ }
+ 
+ .whatsapp{
+     width: 4rem;
+     height: 4rem;
+     background-image: url(midia/icons8-whatsapp.svg);
+     background-size: cover;
+     margin: 0 0 1.2rem 0.8rem;
+     
+     
+ }
+ 
+ .instagram{
+     width: 4rem;
+     height: 4rem;
+     background-image: url(midia/icons8-instagram.svg);
+     background-size: cover;
+     margin: 0 0 2rem 5.5rem;
+ 
+ }
+ 
+ .facebook{
+     width: 4rem;
+     height: 4rem;
+     background-image: url(midia/icons8-facebook.svg);
+     background-size: cover;
+     margin: 0 0 2rem 5.5rem;
+ 
+ }
+ 
+ }
+
+ @media (min-width: 768px) and (max-width:1023px ){
+
+    header{
+        position: static;
+        display: flex;
+        justify-content: center;
+    }
+
+    header > p{
+        position:absolute;
+        width: 100%;
+        left: 15px;
+        font-family: 'Lobster', cursive;
+        font-size: 2rem;
+        color: #e3f5fe;
+    }
+    
+    header nav > a {
+        text-decoration: none;
+        color: black;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 1.8rem;
+        color: #e3f5fe; 
+    }
+    :root{
+     font-size: 10px;
+    }
+ 
+    article{
+     display: flex;
+     
+     
+    }
+
+ 
+    #photo_teacher{
+ 
+     width: 25rem;
+     height: 25rem;
+     border-radius: 300px;
+     margin: 0 0 0 3rem;
+     background-image: url(midia/teacher_Gabriel.jpeg);
+     background-size: cover;
+ }
+ 
+ .texts_apresentation{
+     
+     margin-top: 2rem;
+     width:80%;
+    
+ }
+ 
+ header nav > a{
+     text-decoration: none;
+     color: black;
+     font-family: 'Source Sans Pro', sans-serif;
+     font-size: 1.8rem;
+     color: #e3f5fe;
+ }
+ 
+ header > nav{
+     width: 23rem;
+     display: flex;
+     justify-content: space-evenly;
+    
+ 
+ }
+ 
+ .photo_class1{
+     width: 75%;
+     height: 80%;
+     background-image: url(midia/photo_class-1.jpeg);
+     background-size: cover;
+     margin: 0 0 0 5.5rem;
+     border-radius: 100px;
+     margin-bottom: 2rem;
+     
+ }
+ 
+ .photo_class2{
+     width: 75%;
+     height: 80%;
+     background-image: url(midia/photo_class-2.jpeg);
+     background-size: cover;
+     margin: 0 0 0 5.5rem;
+     border-radius: 100px;
+     margin-bottom: 2rem;
+     
+ }
+ 
+ .photo_class3{
+     width: 75%;
+     height: 80%;
+     background-image: url(midia/photo_class-3.jpeg);
+     background-size: cover;
+     margin: 0 5.5rem 0 5.5rem;
+     border-radius: 100px;
+     margin-bottom: 2rem;
+ }
+ 
+ #contato{
+     display: flex;
+     flex-direction: row;
+     
+ }
+ 
+ .whatsapp{
+     width: 4rem;
+     height: 4rem;
+     background-image: url(midia/icons8-whatsapp.svg);
+     background-size: cover;
+     margin: 0 0 1.2rem 0.8rem;
+     
+     
+ }
+ 
+ .instagram{
+     width: 4rem;
+     height: 4rem;
+     background-image: url(midia/icons8-instagram.svg);
+     background-size: cover;
+     margin: 0 0 2rem 5.5rem;
+ 
+ }
+ 
+ .facebook{
+     width: 4rem;
+     height: 4rem;
+     background-image: url(midia/icons8-facebook.svg);
+     background-size: cover;
+     margin: 0 0 2rem 5.5rem;
+ 
+ }
+ }
+
+ @media (min-width: 425px) and (max-width:767px ){
+
+    header{
+        display: flex;
+        justify-content: center;
+    }
+
+    header > p{
+        position:absolute;
+        width: 100%;
+        left: 148px;
+        font-family: 'Lobster', cursive;
+        font-size: 2.5rem;
+        color: #e3f5fe;
+    }
+    header nav > a{
+        display: none;   
+    }
+    :root{
+     font-size: 7.5px;
+    }
+ 
+    article{
+     display: flex;
+     flex-direction: column;
+     
+    }
+ 
+    #photo_teacher{
+ 
+     width: 25rem;
+     height: 25rem;
+     border-radius: 300px;
+     margin: 0 0 0 8rem;
+     background-image: url(midia/teacher_Gabriel.jpeg);
+     background-size: cover;
+ }
+ 
+ .texts_apresentation{
+     
+     margin-top: 2rem;
+     width:80%;
+    
+ }
+ 
+ header nav > a{
+     text-decoration: none;
+     color: black;
+     font-family: 'Source Sans Pro', sans-serif;
+     font-size: 1.8rem;
+     color: #e3f5fe;
+ }
+ 
+ header > nav{
+     width: 23rem;
+     display: flex;
+     justify-content: space-evenly;
+    
+ 
+ }
+ 
+ .photo_class1{
+     width: 75%;
+     height: 80%;
+     background-image: url(midia/photo_class-1.jpeg);
+     background-size: cover;
+     margin: 0 0 0 5.5rem;
+     border-radius: 100px;
+     margin-bottom: 2rem;
+     
+ }
+ 
+ .photo_class2{
+     width: 75%;
+     height: 80%;
+     background-image: url(midia/photo_class-2.jpeg);
+     background-size: cover;
+     margin: 0 0 0 5.5rem;
+     border-radius: 100px;
+     margin-bottom: 2rem;
+     
+ }
+ 
+ .photo_class3{
+     width: 75%;
+     height: 80%;
+     background-image: url(midia/photo_class-3.jpeg);
+     background-size: cover;
+     margin: 0 0 0 5.5rem;
+     border-radius: 100px;
+     margin-bottom: 2rem;
+ }
+ 
+ #contato{
+     display: flex;
+     flex-direction: row;
+     
+ }
+ 
+ .whatsapp{
+     width: 4rem;
+     height: 4rem;
+     background-image: url(midia/icons8-whatsapp.svg);
+     background-size: cover;
+     margin: 0 0 1.2rem 0.8rem;
+     
+     
+ }
+ 
+ .instagram{
+     width: 4rem;
+     height: 4rem;
+     background-image: url(midia/icons8-instagram.svg);
+     background-size: cover;
+     margin: 0 0 2rem 5.5rem;
+ 
+ }
+ 
+ .facebook{
+     width: 4rem;
+     height: 4rem;
+     background-image: url(midia/icons8-facebook.svg);
+     background-size: cover;
+     margin: 0 0 2rem 5.5rem;
+ 
+ }
+ 
+ }
+
+ @media (min-width: 1024px) and (max-width:1439px ){
+
+    header{
+        position: static;
+        display: flex;
+        justify-content: center;
+    }
+
+    header > p{
+        position:absolute;
+        width: 100%;
+        left: 15px;
+        font-family: 'Lobster', cursive;
+        font-size: 2rem;
+        color: #e3f5fe;
+    }
+    
+    header nav > a {
+        text-decoration: none;
+        color: black;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 1.8rem;
+        color: #e3f5fe; 
+    }
+    :root{
+     font-size: 10px;
+    }
+ 
+    article{
+     display: flex;
+     
+     
+    }
+
+ 
+    #photo_teacher{
+ 
+     width: 25rem;
+     height: 25rem;
+     border-radius: 300px;
+     margin: 0 0 0 3rem;
+     background-image: url(midia/teacher_Gabriel.jpeg);
+     background-size: cover;
+ }
+ 
+ .texts_apresentation{
+     
+     margin-top: 2rem;
+     width:55%;
+    
+ }
+ 
+ header nav > a{
+     text-decoration: none;
+     color: black;
+     font-family: 'Source Sans Pro', sans-serif;
+     font-size: 1.8rem;
+     color: #e3f5fe;
+ }
+ 
+ header > nav{
+     width: 23rem;
+     display: flex;
+     justify-content: space-evenly;
+    
+ 
+ }
+ 
+ .photo_class1{
+     width: 75%;
+     height: 80%;
+     background-image: url(midia/photo_class-1.jpeg);
+     background-size: cover;
+     margin: 0 0 0 5.5rem;
+     border-radius: 100px;
+     margin-bottom: 2rem;
+     
+ }
+ 
+ .photo_class2{
+     width: 75%;
+     height: 80%;
+     background-image: url(midia/photo_class-2.jpeg);
+     background-size: cover;
+     margin: 0 0 0 5.5rem;
+     border-radius: 100px;
+     margin-bottom: 2rem;
+     
+ }
+ 
+ .photo_class3{
+     width: 75%;
+     height: 80%;
+     background-image: url(midia/photo_class-3.jpeg);
+     background-size: cover;
+     margin: 0 5.5rem 0 5.5rem;
+     border-radius: 100px;
+     margin-bottom: 2rem;
+ }
+ 
+ #contato{
+     display: flex;
+     flex-direction: row;
+     
+ }
+ 
+ .whatsapp{
+     width: 4rem;
+     height: 4rem;
+     background-image: url(midia/icons8-whatsapp.svg);
+     background-size: cover;
+     margin: 0 0 1.2rem 0.8rem;
+     
+     
+ }
+ 
+ .instagram{
+     width: 4rem;
+     height: 4rem;
+     background-image: url(midia/icons8-instagram.svg);
+     background-size: cover;
+     margin: 0 0 2rem 5.5rem;
+ 
+ }
+ 
+ .facebook{
+     width: 4rem;
+     height: 4rem;
+     background-image: url(midia/icons8-facebook.svg);
+     background-size: cover;
+     margin: 0 0 2rem 5.5rem;
+ 
+ }
+ }
+
+ 
+ 
+
+ 
+ 
 
 
 
