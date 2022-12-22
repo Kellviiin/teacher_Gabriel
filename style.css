@@ -1,0 +1,216 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*Reset.css a cima*/
+
+body{
+    background-color: #11283c;
+    
+    
+}
+
+header{
+    position:fixed;
+    width: 100%;
+    height:3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #11283c;
+    margin-bottom: 3rem;
+    z-index: 1;
+    
+    
+    
+    
+}
+
+header > p{
+    position: absolute;
+    right:78rem;
+    font-family: 'Lobster', cursive;
+    font-size: 1.5rem;
+    color: #e3f5fe;
+}
+
+header > nav{
+    width: 15rem;
+    display: flex;
+    justify-content: space-evenly;
+   
+
+}
+
+header nav > a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.1rem;
+    color: #e3f5fe;
+}
+
+article{
+    position: relative;
+    top: 5rem;
+    padding-top: 3rem;
+    height:50vh;
+    margin: 0rem 6.5rem 0 6.5rem;
+    background-color: #e3f5fe;
+    border-radius: 15px;
+    display: flex;
+    
+}
+
+#photo_teacher{
+
+    width: 20rem;
+    height: 20rem;
+    border-radius: 300px;
+    margin: 0 0 0 4rem;
+    background-image: url(./midia/teacher_Gabriel.jpeg);
+    background-size: cover;
+}
+
+.texts_apresentation{
+    margin-left: 4rem;
+    width: 50%;
+    
+    box-sizing: border-box;
+}
+
+.texts_apresentation > h1{
+    font-size: 2.5rem;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #11283c;
+   
+}
+
+.texts_apresentation > p{
+    font-size: 1.8rem;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #11283c;
+   
+}
+
+.photo_class1{
+    width: 25%;
+    height: 80%;
+    background-image: url(./midia/photo_class-1.jpeg);
+    background-size: cover;
+    margin: 0 0 0 5.5rem;
+    border-radius: 100px;
+    
+}
+
+.photo_class2{
+    width: 25%;
+    height: 80%;
+    background-image: url(./midia/photo_class-2.jpeg);
+    background-size: cover;
+    margin: 0 0 0 4rem;
+    border-radius: 100px;
+    
+}
+
+.photo_class3{
+    width: 25%;
+    height: 80%;
+    background-image: url(./midia/photo_class-3.jpeg);
+    background-size: cover;
+    margin: 0 0 0 4rem;
+    border-radius: 100px;
+}
+
+#photos{
+    margin-top: 2rem;
+    
+}
+
+#contato{
+    margin-top: 2rem;
+    margin-bottom: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:10vh;
+}
+
+.whatsapp{
+    width: 100px;
+    height: 100px;
+    background-image: url(./midia/icons8-whatsapp.svg);
+    background-size: cover;
+    margin: 0 0 2rem 5.0rem;
+    
+    
+}
+
+.instagram{
+    width: 100px;
+    height: 100px;
+    background-image: url(./midia/icons8-instagram.svg);
+    background-size: cover;
+    margin: 0 0 2rem 5.5rem;
+
+}
+
+.facebook{
+    width: 100px;
+    height: 100px;
+    background-image: url(./midia/icons8-facebook.svg);
+    background-size: cover;
+    margin: 0 0 2rem 5.5rem;
+
+}
+
+
+
+
+
+
